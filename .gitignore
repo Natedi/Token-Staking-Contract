@@ -1,0 +1,35 @@
+# Solidity build artifacts
+build/
+artifacts/
+
+# Ignore cache files
+cache/
+*.log
+
+# Remix project files
+remix-ide/
+*.swp
+
+# Node.js dependencies
+node_modules/
+
+# dotenv environment files
+.env
+
+# Truffle specific
+.openzeppelin/
+
+# Visual Studio Code settings
+.vscode/
+
+# MacOS specific
+.DS_Store
+
+# Coverage reports
+coverage/
+
+# Hardhat specific (included for potential future use)
+coverage/
+cache/
+typechain/
+
